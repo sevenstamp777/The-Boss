@@ -1,0 +1,17 @@
+{
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "qwen2.5:7b-instruct"
+      },
+      "models": {
+        "qwen2.5:7b-instruct": {
+          "alias": "qwen"
+        },
+        "ollama/llama3.2:3b-instruct": {
+          "alias": "llama"
+        }
+      }
+    }
+  }
+}
