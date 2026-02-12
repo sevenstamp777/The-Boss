@@ -4,14 +4,15 @@
 - **Nome**: The Boss - Agentes de Marketing Digital
 - **Objetivo**: Agentes inteligentes para marketing digital, vendas de e-books e palestras sobre casamentos e crises conjugais
 - **Data de Criação**: 11 de Fevereiro de 2026
+- **Versão do Openclaw**: 2026.2.9
 - **Versão do Ollama**: 0.15.6
 
 ## Modelos LLM Disponíveis
 - **Qwen 2.5 7B**: Modelo principal (alias: qwen)
 - **Llama 3.2 3B**: Modelo alternativo (alias: llama)
 
-## Configuração Ollama
-- **Provider**: Ollama
+## Configuração
+- **Provider**: Ollama (local)
 - **Base URL**: http://localhost:11434
 - **Status**: Ativo
 
@@ -21,3 +22,8 @@
 ## Histórico de Correções
 - **11/02/2026**: Remover prefixo "ollama/" do modelo llama3.2:3b-instruct
 - **11/02/2026**: Inicializar estrutura de memória
+
+## Notas Importantes
+- Usar alias dos modelos em chat: "qwen" ou "llama"
+- Manter memória atualizada com decisões e contexto importante
+- Revisar diariamente os arquivos de memória do dia anterior
