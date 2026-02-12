@@ -8,7 +8,7 @@
         "qwen2.5:7b-instruct": {
           "alias": "qwen"
         },
-        "llama3.2:3b-instruct": {
+        "llama3.2:3b-instruct-q4_K_M": {
           "alias": "llama"
         }
       }
