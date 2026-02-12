@@ -7,10 +7,17 @@
 - **Versão do Ollama**: 0.15.6
 
 ## Modelos LLM Disponíveis
-- **Qwen 2.5 7B**: Modelo principal
-- **Llama 3.2 3B**: Modelo alternativo
+- **Qwen 2.5 7B**: Modelo principal (alias: qwen)
+- **Llama 3.2 3B**: Modelo alternativo (alias: llama)
 
 ## Configuração Ollama
 - **Provider**: Ollama
 - **Base URL**: http://localhost:11434
 - **Status**: Ativo
+
+## Agentes Configurados
+(Será preenchido conforme agentes são criados )
+
+## Histórico de Correções
+- **11/02/2026**: Remover prefixo "ollama/" do modelo llama3.2:3b-instruct
+- **11/02/2026**: Inicializar estrutura de memória
