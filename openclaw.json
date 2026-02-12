@@ -1,16 +1,26 @@
 {
   "agents": {
     "defaults": {
+      "provider": "ollama",
       "model": {
         "primary": "qwen2.5:7b-instruct"
       },
       "models": {
         "qwen2.5:7b-instruct": {
-          "alias": "qwen"
+          "provider": "ollama",
+          "alias": "qwen",
+          "description": "Qwen 2.5 7B Instruct - Modelo principal para processamento de linguagem natural"
         },
-        "ollama/llama3.2:3b-instruct": {
-          "alias": "llama"
+        "llama3.2:3b-instruct": {
+          "provider": "ollama",
+          "alias": "llama",
+          "description": "Llama 3.2 3B Instruct - Modelo alternativo mais leve para tarefas rápidas"
         }
+      },
+      "ollama": {
+        "baseUrl": "http://localhost:11434",
+        "timeout": 300000,
+        "retries": 3
       }
     }
   }
